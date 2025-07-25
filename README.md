@@ -3,12 +3,12 @@
   <img src="https://capsule-render.vercel.app/api?text=Hey%20Everyone!🕹️&animation=fadeIn&type=waving&color=gradient&height=100"/>
 </p>
 
-<h1 align="center">I am Sachin Upadhyay</h1>
+<h1 align="center">I am Aman Singh Negi</h1>
 <p align="center">
-  <a href="https://www.linkedin.com/in/sachin-upadhyay-6691a4251/">
+  <a href="https://www.linkedin.com/in/aman-singh-negi0/">
     <img height="50" src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png"/>
   </a>&nbsp;&nbsp;
-  <a href="https://leetcode.com/SachinSensei/">
+  <a href="https://leetcode.com/amansinghnegi/">
     <img height="50" src="https://pathrise-website-guide-wp.s3.us-west-1.amazonaws.com/guides/wp-content/uploads/2019/05/10175228/images-11.png"/>
   </a>&nbsp;&nbsp;
   <a href="https://www.youtube.com/channel/UCsVbGpAudSn3Lfl0L1GXaCw">
