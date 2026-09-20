@@ -1,76 +1,180 @@
+# 👋 Hi, I'm Aman Singh Negi
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Hey%20Everyone!🕹️&animation=fadeIn&type=waving&color=gradient&height=100"/>
+### Software Developer | AI/ML Enthusiast | Computer Science Engineering Student
+
+I'm a Computer Science Engineering student passionate about building **software products, intelligent systems, and practical machine learning applications**.
+
+I enjoy solving problems, learning how systems work under the hood, and turning ideas into functional products.
+
+---
+
+## 🚀 About Me
+
+* 🎓 **B.Tech in Computer Science & Engineering**
+* 💻 Focused on **Software Development & Product-Based Engineering**
+* 🤖 Interested in **Artificial Intelligence, Machine Learning & Deep Learning**
+* 🧠 Actively strengthening **Data Structures & Algorithms**
+* 🏗️ Building projects across **Full-Stack Development, AI/ML & Reinforcement Learning**
+* 🏆 **3★ CodeChef**
+* 💡 Interested in building products that solve real-world problems
+
+---
+
+## 🛠️ Tech Stack
+
+### Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=cpp,python,js,ts,java,sql" />
 </p>
 
-<h1 align="center">I am Aman Singh Negi</h1>
-<p align="center">
-  <a href="https://www.linkedin.com/in/aman-singh-negi0/">
-    <img height="50" src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png"/>
-  </a>&nbsp;&nbsp;
-  <a href="https://leetcode.com/amansinghnegi/">
-    <img height="50" src="https://pathrise-website-guide-wp.s3.us-west-1.amazonaws.com/guides/wp-content/uploads/2019/05/10175228/images-11.png"/>
-  </a>&nbsp;&nbsp;
-  <a href="https://www.youtube.com/channel/UCsVbGpAudSn3Lfl0L1GXaCw">
-    <img height="50" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/395_Youtube_logo-512.png"/>
-  </a>&nbsp;&nbsp;
-  <a href="https://sachinupadhyayresume.netlify.app/">
-    <img height="50" src="https://cdn3.iconfinder.com/data/icons/files-documents-actions/252/file-document-action-paper_76-512.png"/>
-  </a>
+### Web Development
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,html,css" />
 </p>
 
-<h1 align="center">About Me</h1>
-<br/>
-<p align="center">
-  <img src="https://media.giphy.com/media/bGgsc5mWoryfgKBx1u/giphy.gif" width="480" height="480">
-</p>
-<br/>
-<div align="center">
-<ul >
-  <li>Well, I am just a keen learner and a person with high josh and spirit to work.</li>
-  <li>I have participated in numerous hackathons and have led my team to victory.</li>
-  <li>I have great knowledge about Full-stack web development.</li>
-  <li>I have great problem-solving skills, and I have a good conceptual understanding of DSA.</li>
-</ul>
-</div>
+### AI / Machine Learning
 
-<br/>
-
-<h1 align="center"> 🚀 &nbsp;Some Tools I Have Used and Learned</h1>
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="45" height="45"/>
-  <!-- C++ -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="45" height="45"/>
-  <!-- C -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="c" width="45" height="45"/>
-  <!-- Java -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java" width="45" height="45"/>
-  <!-- JavaScript -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="45" height="45"/>
-  <!-- Python -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="45" height="45"/>
-  <!--Node Js -->
-  <img src="https://w7.pngwing.com/pngs/777/698/png-transparent-node-js-javascript-software-developer-npm-github-angle-text-logo-thumbnail.png" alt="javascript" width="45" height="45"/>
-   <!--React -->
-  <img src="https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_400x400.png" alt="javascript" width="45" height="45"/>
-  <!-- MongoDB -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb" width="45" height="45"/>
-  <!-- Flask -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="flask" width="45" height="45"/>
-  <!-- npm -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="npm" width="45" height="45"/>
-  <!-- GitHub -->
-  <img src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png" alt="github" width="45" height="45"/>
-   <!-- Git-->
-  <img src="https://w7.pngwing.com/pngs/182/979/png-transparent-github-repository-commit-version-control-github-angle-rectangle-logo-thumbnail.png" alt="github" width="45" height="45"/>
-</p>
-<br/>
-
-<h2 align="center">Thank you for Going through my profile</h2>
-
-<br/>
-
-<p align="center">
-<img src="https://media.giphy.com/media/JUSwkiO1Eh5K43ruN0/giphy.gif" width="480" height="287">
+<p>
+<img src="https://skillicons.dev/icons?i=tensorflow,opencv" />
 </p>
 
+**Libraries & Tools:** NumPy • Pandas • Scikit-learn • Matplotlib • MediaPipe • Jupyter
+
+### Databases & Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,firebase,mysql" />
+</p>
+
+### Tools & Platforms
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,vercel" />
+</p>
+
+---
+
+## ⭐ Featured Projects
+
+### 🔐 Encryption & Security System
+
+A cryptography-focused project exploring secure data encryption and decryption using established symmetric encryption algorithms.
+
+**Tech:** Python • Cryptography • AES • DES • Triple DES
+
+---
+
+### 🧠 Drowsiness Detection System
+
+A real-time computer vision and deep learning system designed to detect driver drowsiness using facial landmarks and eye-related features.
+
+**Tech:** Python • TensorFlow • OpenCV • MediaPipe • Streamlit
+
+---
+
+### 🚀 LunarLander — Deep Reinforcement Learning
+
+An AI agent trained to land a spacecraft using **Deep Q-Learning** and **Double Deep Q-Learning**, exploring experience replay, target networks and reward optimization.
+
+**Tech:** Python • TensorFlow • DQN • DDQN • Reinforcement Learning
+
+---
+
+### 🔎 Intelligent Plagiarism Detection System
+
+A hybrid plagiarism detection system combining multiple similarity techniques to identify textual and structural similarities between documents and source code.
+
+**Tech:** Python • NLP • TF-IDF • Jaccard Similarity • MinHash • Levenshtein Distance • AST
+
+---
+
+### 🏗️ AI-Driven Institutional Inspection
+
+An AI-based system designed to assist institutional infrastructure inspection using **computer vision, machine learning and regression-based prediction**.
+
+**Tech:** Python • TensorFlow • Computer Vision • Machine Learning • Regression
+
+---
+
+## 📚 Currently Learning
+
+```text
+Data Structures & Algorithms
+        ↓
+Advanced Problem Solving
+        ↓
+System Design & Backend Engineering
+        ↓
+Machine Learning & Deep Learning
+        ↓
+Building Production-Ready Software
+```
+
+I'm particularly interested in understanding not just **how to build something**, but also **why a particular architecture, algorithm or technology is appropriate**.
+
+---
+
+## 💻 Competitive Programming
+
+<p>
+<a href="https://leetcode.com/">
+<img src="https://img.shields.io/badge/LeetCode-150%2B%20Problems-orange?style=for-the-badge&logo=leetcode&logoColor=white"/>
+</a>
+<a href="https://www.codechef.com/">
+<img src="https://img.shields.io/badge/CodeChef-3★-brown?style=for-the-badge&logo=codechef&logoColor=white"/>
+</a>
+<a href="https://codeforces.com/">
+<img src="https://img.shields.io/badge/Codeforces-Problem%20Solving-blue?style=for-the-badge&logo=codeforces&logoColor=white"/>
+</a>
+</p>
+
+I regularly practice:
+
+`Arrays` `Strings` `Linked Lists` `Trees` `Graphs` `BFS/DFS` `Greedy` `Dynamic Programming` `Binary Search` `Heaps` `Hashing`
+
+---
+
+## 📊 GitHub Activity
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="170"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true" height="170"/>
+</p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true" height="170"/>
+</p>
+
+---
+
+## 🎯 2026 Goals
+
+* [ ] Become highly proficient in **DSA & Problem Solving**
+* [ ] Build production-quality full-stack applications
+* [ ] Strengthen **System Design & CS Fundamentals**
+* [ ] Deepen knowledge of **AI/ML & Deep Learning**
+* [ ] Contribute to open-source projects
+* [ ] Build and ship meaningful software products
+
+---
+
+## 🤝 Let's Connect
+
+<p>
+<a href="https://www.linkedin.com/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+</p>
+
+💼 Open to **software development opportunities, internships, collaborations and interesting projects.**
+
+---
+
+<p align="center">
+<i>Building. Learning. Solving. Repeating.</i>
+</p>
