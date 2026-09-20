@@ -88,13 +88,34 @@ I'm particularly interested in **DSA, backend engineering, AI/ML, and building p
   <img src="https://github-profile-trophy.vercel.app/?username=aman-singh-negi&theme=github-dark&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
 </div>
 
-### Milestones
+### 🎯 Key Milestones
 
-- 🎯 **427+ LeetCode Problems Solved** (136 Easy, 244 Medium, 47 Hard)
-- ⭐ **3★ CodeChef Rating** (Current: 2026)
-- 🔥 **Consistent GitHub Contributions** with active development
-- 🏅 **Multiple AI/ML Projects** including Deep RL and Computer Vision
-- 📈 **Continuous Learning** in DSA, System Design, and Production Engineering
+<div align="center">
+
+| Milestone | Achievement | Status |
+|-----------|-------------|--------|
+| 🎯 **LeetCode Mastery** | 427+ Problems Solved (136 Easy, 244 Medium, 47 Hard) | ✅ Active |
+| ⭐ **CodeChef Excellence** | 3★ Rating (Current: 2026) | ✅ Achieved |
+| 🔥 **GitHub Consistency** | 500+ Contributions with active development | ✅ Ongoing |
+| 🏅 **AI/ML Projects** | Deep RL, Computer Vision, NLP implementations | ✅ Completed |
+| 📈 **System Design** | Scalable architecture and database design | 🚧 In Progress |
+| 🌟 **Open Source** | Contributing to meaningful projects | 🚧 In Progress |
+
+</div>
+
+### 📊 Coding Statistics
+
+<div align="center">
+
+| Platform | Metric | Value |
+|----------|--------|-------|
+| 🔥 **LeetCode** | Total Solved | 427+ |
+| ⭐ **CodeChef** | Current Rating | 2026 |
+| 🏆 **Codeforces** | Max Rating | 1027 |
+| 💻 **GitHub** | Total Contributions | 500+ |
+| 🎮 **Contests** | Participated | 50+ |
+
+</div>
 
 ---
 
@@ -106,17 +127,13 @@ I'm particularly interested in **DSA, backend engineering, AI/ML, and building p
 | Platform | Progress |
 |---|---|
 | 🟧 **LeetCode** | **[amansinghnegi](https://leetcode.com/u/amansinghnegi/)**  
-Solved: **427** • Easy: **136** • Medium: **244** • Hard: **47** • Rank: **285,164** |
+Solved: **427** • Easy: **136** • Medium: **244** • Hard: **47** • Rank: **285,402** |
 | 🔵 **Codeforces** | **[amansinghnegi](https://codeforces.com/profile/amansinghnegi)**  
 Rating: **973** • Max: **1027** • Rank: **newbie** • Max rank: **newbie** |
 | 🟫 **CodeChef** | **[amansinghnegi0](https://www.codechef.com/users/amansinghnegi0)** • Rating: **2026** |
 
-> Last automated refresh: **2026-09-20 10:19 UTC**
+> Last automated refresh: **2026-09-20 10:40 UTC**
 <!-- STATS:END -->
-
-### Practice Areas
-
-`Arrays` `Strings` `Linked Lists` `Trees` `Graphs` `BFS` `DFS` `Greedy` `Dynamic Programming` `Binary Search` `Heaps` `Hashing` `Recursion`
 
 ---
 
@@ -139,23 +156,67 @@ Rating: **973** • Max: **1027** • Rank: **newbie** • Max rank: **newbie** 
 
 ## 📚 Learning Journey
 
-### 🎯 Current Focus Timeline
+### 🎯 Current Focus Roadmap
+
+<div align="center">
 
 ```mermaid
-graph LR
-    A[Data Structures & Algorithms] --> B[Advanced Problem Solving]
-    B --> C[Backend Engineering]
-    C --> D[System Design & CS Fundamentals]
-    D --> E[Machine Learning & Deep Learning]
-    E --> F[Production-Ready Software]
+flowchart TD
+    Start([Start Journey]) --> DSA[Data Structures & Algorithms]
+    DSA --> Problem[Advanced Problem Solving]
+    Problem --> Backend[Backend Engineering]
+    Backend --> Design[System Design & CS Fundamentals]
+    Design --> ML[Machine Learning & Deep Learning]
+    ML --> Production[Production-Ready Software]
     
-    style A fill:#2F81F7,color:#fff
-    style B fill:#2F81F7,color:#fff
-    style C fill:#2F81F7,color:#fff
-    style D fill:#2F81F7,color:#fff
-    style E fill:#2F81F7,color:#fff
-    style F fill:#2F81F7,color:#fff
+    style Start fill:#2F81F7,color:#fff
+    style DSA fill:#2F81F7,color:#fff
+    style Problem fill:#2F81F7,color:#fff
+    style Backend fill:#2F81F7,color:#fff
+    style Design fill:#2F81F7,color:#fff
+    style ML fill:#2F81F7,color:#fff
+    style Production fill:#2F81F7,color:#fff
 ```
+
+</div>
+
+### 📖 Detailed Learning Path
+
+<div align="center">
+
+| Phase | Focus Area | Technologies | Progress |
+|-------|------------|--------------|----------|
+| 🧠 **Foundation** | DSA & Problem Solving | Arrays, Trees, Graphs, DP | ████████████████████ 85% |
+| 💻 **Backend** | API Development | Node.js, Express, PostgreSQL | ████████████████ 70% |
+| 🏗️ **System Design** | Scalable Architecture | Microservices, Caching, Load Balancing | ████████████ 50% |
+| 🤖 **AI/ML** | Machine Learning | TensorFlow, PyTorch, Scikit-learn | ████████████████ 75% |
+| 🚀 **Production** | DevOps & MLOps | Docker, Kubernetes, CI/CD | ████████ 40% |
+
+</div>
+
+### 🎯 Learning Resources
+
+<div align="center">
+
+**Courses & Platforms**
+- 📚 [LeetCode](https://leetcode.com/u/amansinghnegi/) - Daily problem solving
+- 🎓 [CodeChef](https://www.codechef.com/users/amansinghnegi0) - Competitive programming
+- 💡 [Codeforces](https://codeforces.com/profile/amansinghnegi) - Algorithm contests
+- 📖 [Coursera/edX] - Machine Learning specializations
+- 🎥 [YouTube] - System design tutorials
+
+**Practice Areas**
+`Arrays` `Strings` `Linked Lists` `Trees` `Graphs` `BFS` `DFS` `Greedy` `Dynamic Programming` `Binary Search` `Heaps` `Hashing` `Recursion`
+
+**Key Concepts**
+- Time & Space Complexity Analysis
+- Object-Oriented Programming Principles  
+- RESTful API Design Patterns
+- Database Normalization & Indexing
+- Machine Learning Model Deployment
+- Containerization & Orchestration
+
+</div>
 
 ---
 
