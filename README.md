@@ -67,35 +67,6 @@ I'm particularly interested in **DSA, backend engineering, AI/ML, and building p
 
 ---
 
-## ⭐ Featured Projects
-
-### 🔐 Encryption & Security System
-Cryptography-focused application exploring secure encryption/decryption using established symmetric encryption techniques.
-
-**Tech:** Python • Cryptography • AES • DES • Triple DES
-
-### 🧠 Drowsiness Detection System
-Real-time computer-vision and deep-learning system for detecting driver drowsiness using facial landmarks and eye-related features.
-
-**Tech:** Python • TensorFlow • OpenCV • MediaPipe • Streamlit
-
-### 🚀 LunarLander — Deep Reinforcement Learning
-Deep RL agent trained using **DQN and Double DQN**, with experience replay, target networks and reward-based learning.
-
-**Tech:** Python • TensorFlow • DQN • DDQN • Reinforcement Learning
-
-### 🔎 Intelligent Plagiarism Detection
-Hybrid plagiarism detector combining lexical, statistical and structural similarity techniques for documents and source code.
-
-**Tech:** Python • NLP • TF-IDF • Jaccard • MinHash • Levenshtein • AST
-
-### 🏗️ AI-Driven Institutional Inspection
-AI-assisted inspection system using computer vision, machine learning and regression-based prediction for institutional infrastructure assessment.
-
-**Tech:** Python • TensorFlow • Computer Vision • Machine Learning • Regression
-
----
-
 ## 💻 Competitive Programming
 
 <!-- STATS:START -->
@@ -109,9 +80,7 @@ Solved: **427** • Easy: **136** • Medium: **244** • Hard: **47** • Rank:
 Rating: **973** • Max: **1027** • Rank: **newbie** • Max rank: **newbie** |
 | 🟫 **CodeChef** | **[amansinghnegi0](https://www.codechef.com/users/amansinghnegi0)** • Rating: **2026** |
 
-> Last automated refresh: **2026-09-20 10:09 UTC**
->
-> Statistics are collected from public profile data and may occasionally be unavailable if a platform changes its public API/page.
+> Last automated refresh: **2026-09-20 10:13 UTC**
 <!-- STATS:END -->
 
 ### Practice Areas
@@ -130,25 +99,6 @@ Rating: **973** • Max: **1027** • Rank: **newbie** • Max rank: **newbie** 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aman-singh-negi&layout=compact&theme=github_dark&hide_border=true" height="170" />
 </p>
-
----
-
-## 📌 Selected Repositories
-
-<!-- REPOS:START -->
-- **[Lunar-Lander](https://github.com/aman-singh-negi/Lunar-Lander)** — No description provided.  
-  `⭐ 1` `⚙️ Jupyter Notebook`
-- **[Encrypty](https://github.com/aman-singh-negi/Encrypty)** — No description provided.  
-  `⭐ 0` `⚙️ JavaScript`
-- **[Drowsiness_Detection](https://github.com/aman-singh-negi/Drowsiness_Detection)** — No description provided.  
-  `⭐ 0` `⚙️ Python`
-- **[aman-singh-negi](https://github.com/aman-singh-negi/aman-singh-negi)** — Hello Folks...  
-  `⭐ 0` `⚙️ —`
-- **[Portfolio](https://github.com/aman-singh-negi/Portfolio)** — No description provided.  
-  `⭐ 0` `⚙️ TypeScript`
-- **[Guild-Management](https://github.com/aman-singh-negi/Guild-Management)** — No description provided.  
-  `⭐ 0` `⚙️ TypeScript`
-<!-- REPOS:END -->
 
 ---
 

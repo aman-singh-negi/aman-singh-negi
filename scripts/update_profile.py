@@ -1,7 +1,5 @@
-import os
 import re
 from datetime import datetime, timezone
-from html import unescape
 
 import requests
 from bs4 import BeautifulSoup
@@ -16,51 +14,6 @@ session = requests.Session()
 session.headers.update({
     "User-Agent": "aman-singh-negi-github-profile-updater/1.0"
 })
-
-
-def safe_int(value, default=None):
-    try:
-        return int(value)
-    except (TypeError, ValueError):
-        return default
-
-
-def get_github_repos():
-    repos = []
-    page = 1
-
-    while True:
-        url = f"https://api.github.com/users/{GITHUB_USER}/repos"
-        response = session.get(
-            url,
-            params={"per_page": 100, "page": page, "sort": "pushed"},
-            timeout=20,
-        )
-        response.raise_for_status()
-        data = response.json()
-
-        if not data:
-            break
-
-        for repo in data:
-            if repo.get("fork"):
-                continue
-            repos.append(repo)
-
-        if len(data) < 100:
-            break
-        page += 1
-
-    repos.sort(
-        key=lambda r: (
-            r.get("stargazers_count", 0),
-            r.get("forks_count", 0),
-            r.get("pushed_at") or "",
-        ),
-        reverse=True,
-    )
-
-    return repos[:6]
 
 
 def get_codeforces():
@@ -169,28 +122,12 @@ def get_codechef():
         parts.append(f"Rating: **{rating}**")
 
     if len(parts) == 1:
-        parts.append("Profile linked • live fields unavailable")
+        parts.append("Rating unavailable")
 
     return " • ".join(parts)
 
 
-def render_repos(repos):
-    lines = []
-    for repo in repos:
-        name = repo["name"]
-        description = (repo.get("description") or "No description provided.").replace("\n", " ")
-        if len(description) > 120:
-            description = description[:117] + "..."
-        stars = repo.get("stargazers_count", 0)
-        language = repo.get("language") or "—"
 
-        lines.append(
-            f"- **[{name}](https://github.com/{GITHUB_USER}/{name})** — "
-            f"{description}  \n"
-            f"  `⭐ {stars}` `⚙️ {language}`"
-        )
-
-    return "\n".join(lines) if lines else "_No repositories found._"
 
 
 def replace_section(text, start_marker, end_marker, replacement):
@@ -215,19 +152,19 @@ def main():
     try:
         leetcode = get_leetcode()
     except Exception as exc:
-        leetcode = f"**[{LEETCODE_USER}](https://leetcode.com/u/{LEETCODE_USER}/)**  \nTemporarily unavailable — will retry automatically."
+        leetcode = f"**[{LEETCODE_USER}](https://leetcode.com/u/{LEETCODE_USER}/)**  \nStats unavailable"
         print("LeetCode:", exc)
 
     try:
         codeforces = get_codeforces()
     except Exception as exc:
-        codeforces = f"**[{CODEFORCES_USER}](https://codeforces.com/profile/{CODEFORCES_USER})**  \nTemporarily unavailable — will retry automatically."
+        codeforces = f"**[{CODEFORCES_USER}](https://codeforces.com/profile/{CODEFORCES_USER})**  \nStats unavailable"
         print("Codeforces:", exc)
 
     try:
         codechef = get_codechef()
     except Exception as exc:
-        codechef = f"**[{CODECHEF_USER}](https://www.codechef.com/users/{CODECHEF_USER})**  \nTemporarily unavailable — will retry automatically."
+        codechef = f"**[{CODECHEF_USER}](https://www.codechef.com/users/{CODECHEF_USER})**  \nStats unavailable"
         print("CodeChef:", exc)
 
     stats = f"""### 📈 Live Coding Progress
@@ -238,19 +175,9 @@ def main():
 | 🔵 **Codeforces** | {codeforces} |
 | 🟫 **CodeChef** | {codechef} |
 
-> Last automated refresh: **{now}**
->
-> Statistics are collected from public profile data and may occasionally be unavailable if a platform changes its public API/page."""
-
-    repos = render_repos(get_github_repos())
+> Last automated refresh: **{now}**"""
 
     readme = replace_section(readme, "<!-- STATS:START -->", "<!-- STATS:END -->", stats)
-    readme = replace_section(
-        readme,
-        "<!-- REPOS:START -->",
-        "<!-- REPOS:END -->",
-        repos,
-    )
 
     with open(README, "w", encoding="utf-8") as f:
         f.write(readme)
