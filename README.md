@@ -87,17 +87,8 @@ Rating: **973** • Max: **1027** • Rank: **newbie** • Max rank: **newbie**
 
 **[amansinghnegi0](https://www.codechef.com/users/amansinghnegi0)** • Rating: **1610**
 
-> Last automated refresh: **2026-09-20 11:08 UTC**
+> Last automated refresh: **2026-09-20 11:10 UTC**
 <!-- STATS:END -->
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aman-singh-negi&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aman-singh-negi&layout=compact&theme=github_dark&hide_border=true&card_width=320" height="180" />
-</div>
 
 ---
 
