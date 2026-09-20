@@ -1,8 +1,4 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-7576-4f32-a322-6e0b7a3d1f8c.gif" alt="Banner" width="100%" />
-</div>
-
-<div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=500&color=2F81F7&center=true&vCenter=true&width=940&lines=Hi+there!+I'm+Aman+Singh+Negi;Software+Developer+%7C+AI%2FML+Enthusiast;Computer+Science+Engineering+Student" alt="Typing SVG" />
 </div>
 
@@ -84,10 +80,6 @@ I'm particularly interested in **DSA, backend engineering, AI/ML, and building p
 
 ## 🏆 Achievements
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aman-singh-negi&theme=github-dark&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
-</div>
-
 ### 🎯 Key Milestones
 
 <div align="center">
@@ -132,25 +124,8 @@ Solved: **427** • Easy: **136** • Medium: **244** • Hard: **47** • Rank:
 Rating: **973** • Max: **1027** • Rank: **newbie** • Max rank: **newbie** |
 | 🟫 **CodeChef** | **[amansinghnegi0](https://www.codechef.com/users/amansinghnegi0)** • Rating: **2026** |
 
-> Last automated refresh: **2026-09-20 10:40 UTC**
+> Last automated refresh: **2026-09-20 10:54 UTC**
 <!-- STATS:END -->
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aman-singh-negi&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" height="180" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aman-singh-negi&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=320" height="180" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aman-singh-negi&layout=compact&theme=github_dark&hide_border=true&card_width=320" height="180" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aman-singh-negi&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution Graph" />
-</div>
 
 ---
 
@@ -253,10 +228,6 @@ flowchart TD
 </div>
 
 ---
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/213644090-e4487236-7c74-4031-8f8e-1e8e9a6b8c2c.gif" alt="Footer" width="100%" />
-</div>
 
 <p align="center">
   <sub>Built with ❤️ by <a href="https://github.com/aman-singh-negi">Aman Singh Negi</a></sub>
