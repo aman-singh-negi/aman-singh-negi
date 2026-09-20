@@ -80,24 +80,35 @@ I enjoy building practical software, solving algorithmic problems, and understan
 
 ## Coding Statistics
 
-<!-- STATS:START -->
+
+## 📊 Coding Statistics
 
 <div align="center">
 
-|      Platform     | Statistics                                       |
-| :---------------: | :----------------------------------------------- |
-|  🟧 **LeetCode**  | **427** solved · 136 Easy · 244 Medium · 47 Hard |
-| 🔵 **Codeforces** | **973** rating · **1027** max                    |
-|  🟫 **CodeChef**  | Rating temporarily unavailable                   |
+| 🟧 LeetCode | 🔵 Codeforces | 🟫 CodeChef |
+|:---:|:---:|:---:|
+| **427** Solved | **973** Rating | **3★** |
+| 136 Easy · 244 Medium · 47 Hard | **1027** Max Rating | Rating available on profile |
+
+<br>
+
+<a href="https://leetcode.com/u/amansinghnegi/">
+  <img src="https://img.shields.io/badge/LeetCode-427%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://codeforces.com/profile/amansinghnegi">
+  <img src="https://img.shields.io/badge/Codeforces-973%20Rating-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://www.codechef.com/users/amansinghnegi0">
+  <img src="https://img.shields.io/badge/CodeChef-3%E2%98%85-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+</a>
+
+<br><br>
+
+<sub>⚡ Automatically updated</sub>
 
 </div>
-
-<p align="center">
-  <sub>Last updated automatically · 20 September 2026</sub>
-</p>
-
-<!-- STATS:END -->
-
 ---
 
 <div align="center">
