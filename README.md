@@ -113,10 +113,22 @@ I enjoy building practical software, solving algorithmic problems, and understan
 
 <div align="center">
 
-### Let's build something useful.
+## Let's build something.
 
-<a href="mailto:lavishnegi7249@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=flat-square&logo=gmail&logoColor=white" />
-</a>
+<p>
+  <a href="mailto:lavishnegi7249@gmail.com">
+    <img
+      src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
+      height="38"
+    />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/amansinghnegi01/">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+      height="38"
+    />
+  </a>
+</p>
 
 </div>
