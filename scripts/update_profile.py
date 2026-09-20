@@ -104,10 +104,14 @@ def get_codechef():
     rating = None
     stars = None
 
-    rating_match = re.search(r"\b(\d{3,5})\b", text)
+    # Look for rating patterns that are clearly ratings, not years
+    # CodeChef ratings are typically 3-4 digits, avoid matching years like 2026
+    # Use negative lookahead to exclude years 2020-2029
+    rating_match = re.search(r"\b(?!202[0-9])(1[0-9]{3}|2[0-4][0-9]{2}|[1-9][0-9]{2})\b", text)
     if rating_match:
         candidate = int(rating_match.group(1))
-        if 100 <= candidate <= 5000:
+        # Valid CodeChef ratings are between 800 and 3000 approximately
+        if 800 <= candidate <= 3000:
             rating = candidate
 
     star_match = re.search(r"\b([1-7])\s*Star\b", text, re.I)
@@ -122,12 +126,9 @@ def get_codechef():
         parts.append(f"Rating: **{rating}**")
 
     if len(parts) == 1:
-        parts.append("Rating unavailable")
+        parts.append("Temporarily unavailable")
 
     return " • ".join(parts)
-
-
-
 
 
 def replace_section(text, start_marker, end_marker, replacement):
@@ -152,28 +153,32 @@ def main():
     try:
         leetcode = get_leetcode()
     except Exception as exc:
-        leetcode = f"**[{LEETCODE_USER}](https://leetcode.com/u/{LEETCODE_USER}/)**  \nStats unavailable"
+        leetcode = f"**[{LEETCODE_USER}](https://leetcode.com/u/{LEETCODE_USER}/)**  \nTemporarily unavailable"
         print("LeetCode:", exc)
 
     try:
         codeforces = get_codeforces()
     except Exception as exc:
-        codeforces = f"**[{CODEFORCES_USER}](https://codeforces.com/profile/{CODEFORCES_USER})**  \nStats unavailable"
+        codeforces = f"**[{CODEFORCES_USER}](https://codeforces.com/profile/{CODEFORCES_USER})**  \nTemporarily unavailable"
         print("Codeforces:", exc)
 
     try:
         codechef = get_codechef()
     except Exception as exc:
-        codechef = f"**[{CODECHEF_USER}](https://www.codechef.com/users/{CODECHEF_USER})**  \nStats unavailable"
+        codechef = f"**[{CODECHEF_USER}](https://www.codechef.com/users/{CODECHEF_USER})**  \nTemporarily unavailable"
         print("CodeChef:", exc)
 
-    stats = f"""### 📈 Live Coding Progress
+    stats = f"""### LeetCode
 
-| Platform | Progress |
-|---|---|
-| 🟧 **LeetCode** | {leetcode} |
-| 🔵 **Codeforces** | {codeforces} |
-| 🟫 **CodeChef** | {codechef} |
+{leetcode}
+
+### Codeforces
+
+{codeforces}
+
+### CodeChef
+
+{codechef}
 
 > Last automated refresh: **{now}**"""
 
