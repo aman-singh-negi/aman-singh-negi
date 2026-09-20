@@ -97,36 +97,22 @@ def get_codechef():
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, "html.parser")
-    text = " ".join(soup.stripped_strings)
-
-    # CodeChef pages change their HTML frequently. We intentionally keep
-    # extraction conservative and fall back gracefully when fields move.
-    rating = None
+    
     stars = None
-
-    # Look for rating patterns that are clearly ratings, not years
-    # CodeChef ratings are typically 3-4 digits, avoid matching years like 2026
-    # Use negative lookahead to exclude years 2020-2029
-    rating_match = re.search(r"\b(?!202[0-9])(1[0-9]{3}|2[0-4][0-9]{2}|[1-9][0-9]{2})\b", text)
-    if rating_match:
-        candidate = int(rating_match.group(1))
-        # Valid CodeChef ratings are between 800 and 3000 approximately
-        if 800 <= candidate <= 3000:
-            rating = candidate
-
-    star_match = re.search(r"\b([1-7])\s*Star\b", text, re.I)
+    
+    # Extract stars: look for pattern like "3 stars"
+    all_text = soup.get_text()
+    star_match = re.search(r"(\d)\s*stars?", all_text, re.I)
     if star_match:
         stars = star_match.group(1)
-
+    
     parts = [f"**[{CODECHEF_USER}](https://www.codechef.com/users/{CODECHEF_USER})**"]
 
     if stars:
         parts.append(f"**{stars}★**")
-    if rating:
-        parts.append(f"Rating: **{rating}**")
-
-    if len(parts) == 1:
-        parts.append("Temporarily unavailable")
+    
+    # Since rating parsing is unreliable, don't display rating
+    parts.append("Rating temporarily unavailable")
 
     return " • ".join(parts)
 
@@ -180,7 +166,7 @@ def main():
 
 {codechef}
 
-> Last automated refresh: **{now}**"""
+> Last updated: **{now}**"""
 
     readme = replace_section(readme, "<!-- STATS:START -->", "<!-- STATS:END -->", stats)
 

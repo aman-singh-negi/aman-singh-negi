@@ -24,41 +24,23 @@
 
 ## 🚀 About Me
 
-- 🎓 B.Tech Computer Science & Engineering student
-- 💻 Focused on **Software Development & Product Engineering**
-- 🤖 Interested in **Artificial Intelligence, Machine Learning & Deep Learning**
-- 🧠 Strengthening **Data Structures, Algorithms & Problem Solving**
--  **3★ CodeChef**
+I'm a Computer Science Engineering student focused on software development, problem solving, and AI/ML. I enjoy building practical systems and understanding the engineering decisions behind them.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=cpp,python,js,ts,java,sql" />
-</p>
+C++ • Python • JavaScript • TypeScript • Java • SQL
 
 ### Web / Backend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind" />
-</p>
+React • Next.js • Node.js • Express • Tailwind CSS
 
 ### AI / ML
-
-<p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,opencv" />
-</p>
-
-**Libraries:** NumPy • Pandas • Scikit-learn • Matplotlib • MediaPipe
+TensorFlow • OpenCV • Scikit-learn • NumPy • Pandas • Matplotlib • MediaPipe
 
 ### Databases / Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,git,github,vscode,figma,vercel" />
-</p>
+MongoDB • MySQL • Firebase • Git • GitHub • VS Code • Figma • Vercel
 
 ---
 
@@ -70,7 +52,7 @@
 
 ---
 
-## 📈 Coding Statistics
+## 📈 Live Coding Statistics
 
 <!-- STATS:START -->
 ### LeetCode
@@ -85,9 +67,9 @@ Rating: **973** • Max: **1027** • Rank: **newbie** • Max rank: **newbie**
 
 ### CodeChef
 
-**[amansinghnegi0](https://www.codechef.com/users/amansinghnegi0)** • Rating: **1610**
+**[amansinghnegi0](https://www.codechef.com/users/amansinghnegi0)** • Rating temporarily unavailable
 
-> Last automated refresh: **2026-09-20 11:10 UTC**
+> Last updated: **2026-09-20 11:20 UTC**
 <!-- STATS:END -->
 
 ---
